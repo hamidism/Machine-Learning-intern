@@ -1,0 +1,9 @@
+{
+  "precision_at_20": 0.6,
+  "precision_at_50": 0.64,
+  "precision_at_100": 0.7,
+  "auc": 0.648,
+  "n_train": 11649,
+  "n_test": 14913,
+  "training_month": "2026-03"
+}
