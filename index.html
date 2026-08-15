@@ -307,20 +307,23 @@
   <section id="intro">
     <span class="section-num">2</span>
     <h2>Introduction</h2>
-    <p>
-      A content or SEO reviewer working through a large page portfolio cannot manually audit every
-      page every cycle. Their real constraint is capacity — typically the top 20 to 100 candidates per
-      review cycle — not comprehensiveness. The question this study answers is not <em>"is this page
-      declining?"</em> in the abstract, but <em>"given limited time, which pages should be opened
-      first?"</em>
+   <p>
+      A multi-client content portfolio — the kind FlyRank manages for dozens of brands at once — 
+      accumulates pages faster than any reviewer can manually re-check them. Across a single month's 
+      warehouse slice used in this study, 61,125 pages had enough traffic to be worth evaluating at 
+      all; no reviewer works through that volume by hand every cycle. That gap — real portfolio scale 
+      versus real reviewer capacity — is the FlyRank content problem this study is a case study of: 
+      not <em>"is this page declining?"</em> in the abstract, but <em>"given limited time, which 
+      pages does a reviewer open first?"</em>
     </p>
     <p>
-      That framing sets the cost structure that shapes every choice in this paper. A false positive —
-      a page flagged as worth reviewing that turns out fine — costs a few minutes of a reviewer's
-      time. A false negative — a genuinely declining, high-visibility page that never gets flagged —
-      costs silent, compounding traffic loss, because nobody was ever told to look. The scoring
-      approach and the evaluation metric used throughout (Precision@K, not accuracy) both follow from
-      this asymmetry.
+      That framing sets the cost structure that shapes every choice in this paper. A false positive — 
+      a page flagged as worth reviewing that turns out fine — costs a few minutes of a reviewer's 
+      time. A false negative — a genuinely declining, high-visibility page that never gets flagged — 
+      costs silent, compounding traffic loss, because nobody was ever told to look. The scoring 
+      approach and the evaluation metric used throughout (Precision@K, not accuracy) both follow from 
+      this asymmetry, and both were chosen to match how a FlyRank reviewer would actually work through 
+      a queue, not to maximize a leaderboard number.
     </p>
     <p>
       Formally, this is treated as a <strong>ranking / scoring problem</strong>: the output is an
